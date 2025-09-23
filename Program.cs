@@ -16,7 +16,7 @@ namespace CV_Analyser
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Interface.Entry.Entry());
+            Application.Run(new Interface.Analyser.Analyser());
         }
     }
 }

@@ -1,0 +1,17 @@
+E:\1Victus\4Repository\2Desktop\cv_analyser\obj\Debug\CV_Analyser.csproj.AssemblyReference.cache
+E:\1Victus\4Repository\2Desktop\cv_analyser\obj\Debug\CV_Analyser.Interface.Analyser.Analyser.resources
+E:\1Victus\4Repository\2Desktop\cv_analyser\obj\Debug\CV_Analyser.Properties.Resources.resources
+E:\1Victus\4Repository\2Desktop\cv_analyser\obj\Debug\CV_Analyser.csproj.GenerateResource.cache
+E:\1Victus\4Repository\2Desktop\cv_analyser\obj\Debug\CV_Analyser.csproj.CoreCompileInputs.cache
+E:\1Victus\4Repository\2Desktop\cv_analyser\bin\Debug\CV_Analyser.exe.config
+E:\1Victus\4Repository\2Desktop\cv_analyser\bin\Debug\CV_Analyser.exe
+E:\1Victus\4Repository\2Desktop\cv_analyser\bin\Debug\CV_Analyser.pdb
+E:\1Victus\4Repository\2Desktop\cv_analyser\bin\Debug\BouncyCastle.Crypto.dll
+E:\1Victus\4Repository\2Desktop\cv_analyser\bin\Debug\itextsharp.dll
+E:\1Victus\4Repository\2Desktop\cv_analyser\bin\Debug\Newtonsoft.Json.dll
+E:\1Victus\4Repository\2Desktop\cv_analyser\bin\Debug\itextsharp.xml
+E:\1Victus\4Repository\2Desktop\cv_analyser\bin\Debug\Newtonsoft.Json.xml
+E:\1Victus\4Repository\2Desktop\cv_analyser\obj\Debug\CV_Analy.26D2B9E0.Up2Date
+E:\1Victus\4Repository\2Desktop\cv_analyser\obj\Debug\CV_Analyser.exe
+E:\1Victus\4Repository\2Desktop\cv_analyser\obj\Debug\CV_Analyser.pdb
+E:\1Victus\4Repository\2Desktop\cv_analyser\obj\Debug\CV_Analyser.exe.config

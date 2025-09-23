@@ -15,7 +15,6 @@ using System.Windows.Forms;
 #region Application Namespace
 using CV_Analyser.Data;
 using CV_Analyser.Engine;
-using CV_Analyser.Interface.Entry;
 using iTextSharp.text.pdf.parser;
 #endregion
 
@@ -116,12 +115,9 @@ namespace CV_Analyser.Interface.Analyser
 
         private void Analyser_FormClosing(object sender, FormClosingEventArgs e) { }
 
-        private void Form_Exit(object sender, EventArgs e) 
+        private void Form_Exit(object sender, EventArgs e)
         {
-            Entry.Entry entry = new Entry.Entry();
-            entry.FormClosed += (s, args) => this.Close();
-            this.Hide(); 
-            entry.Show();
+            Application.Exit();
         }
         #endregion
 

@@ -1,0 +1,502 @@
+[
+  {
+    "Name": "associate-attorney-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " software "
+  },
+  {
+    "Name": "atm-custodian-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "attorney-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "automation-tester-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "bartender-waitress-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "bottle-service-waitress-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "ccna-network-engineer-resume-example.pdf",
+    "Score": 2,
+    "Keywords": " engineer "
+  },
+  {
+    "Name": "civil-litigation-attorney-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "cloud-network-engineer-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "cnc-programmer-resume-example.pdf",
+    "Score": 2,
+    "Keywords": " programmer "
+  },
+  {
+    "Name": "cocktail-waitress-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " full "
+  },
+  {
+    "Name": "computer-programmer-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " software "
+  },
+  {
+    "Name": "comsec-custodian-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " software "
+  },
+  {
+    "Name": "contract-administrator-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "contract-analyst-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "contract-attorney-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "contract-manager-resume-example.pdf",
+    "Score": 2,
+    "Keywords": " software "
+  },
+  {
+    "Name": "contract-specialist-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "correctional-officer-no-experience-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " software "
+  },
+  {
+    "Name": "correctional-officer-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " software "
+  },
+  {
+    "Name": "CV_Erdem-Alptug-Oksuz.pdf",
+    "Score": 3,
+    "Keywords": " software developer "
+  },
+  {
+    "Name": "CV_Gencay_Yildiz.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "CV_Mert-Ali-Ozcelik.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "CV_Tarik-Emin-Karabay.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "CV_Turker_Calhan.pdf",
+    "Score": 7,
+    "Keywords": " software developer "
+  },
+  {
+    "Name": "cyber-security-analyst-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " software "
+  },
+  {
+    "Name": "cyber-security-engineer-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "cyber-security-intern-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "cyber-security-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "deep-learning-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "doctor-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "entry-level-attorney-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " university "
+  },
+  {
+    "Name": "entry-level-cyber-security-resume-example.pdf",
+    "Score": 3,
+    "Keywords": " university software "
+  },
+  {
+    "Name": "entry-level-front-end-developer-resume-example.pdf",
+    "Score": 2,
+    "Keywords": " developer "
+  },
+  {
+    "Name": "entry-level-network-engineer-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " engineer "
+  },
+  {
+    "Name": "entry-level-programmer-resume-example.pdf",
+    "Score": 4,
+    "Keywords": " university developer software "
+  },
+  {
+    "Name": "entry-level-ux-designer-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " software "
+  },
+  {
+    "Name": "experienced-network-engineer-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " engineer "
+  },
+  {
+    "Name": "f5-network-engineer-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "family-physician-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "freelance-front-end-developer-resume-example.pdf",
+    "Score": 2,
+    "Keywords": " developer "
+  },
+  {
+    "Name": "freelance-ux-designer-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "front-end-developer-resume-example.pdf",
+    "Score": 3,
+    "Keywords": " developer software engineer "
+  },
+  {
+    "Name": "full-stack-developer-node-js-resume-example.pdf",
+    "Score": 6,
+    "Keywords": " stack developer software "
+  },
+  {
+    "Name": "government-contract-specialist-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "head-waitress-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "hostess-waitress-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "java-front-end-developer-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " software "
+  },
+  {
+    "Name": "java-programmer-resume-example.pdf",
+    "Score": 2,
+    "Keywords": " software "
+  },
+  {
+    "Name": "junior-front-end-developer-resume-example.pdf",
+    "Score": 2,
+    "Keywords": " developer "
+  },
+  {
+    "Name": "junior-front-end-web-developer-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " developer "
+  },
+  {
+    "Name": "junior-network-engineer-resume-example.pdf",
+    "Score": 3,
+    "Keywords": " engineer software "
+  },
+  {
+    "Name": "juniper-network-engineer-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "lead-custodian-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "lead-marketing-front-end-developer-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "litigation-attorney-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " software "
+  },
+  {
+    "Name": "machine-learning-engineer-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "machine-learning-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "manual-tester-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "mcdonalds-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "medical-doctor-resume-example.pdf",
+    "Score": 3,
+    "Keywords": " university software "
+  },
+  {
+    "Name": "mid-level-front-end-developer-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "network-security-engineer-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "node-js-developer-resume-example.pdf",
+    "Score": 4,
+    "Keywords": " software engineer full stack "
+  },
+  {
+    "Name": "node-js-resume-example.pdf",
+    "Score": 3,
+    "Keywords": " stack full "
+  },
+  {
+    "Name": "physician-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "programmer-analyst-resume-example.pdf",
+    "Score": 4,
+    "Keywords": " programmer software university "
+  },
+  {
+    "Name": "programmer-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " software "
+  },
+  {
+    "Name": "python-programmer-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " developer "
+  },
+  {
+    "Name": "qa-tester-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " software "
+  },
+  {
+    "Name": "react-developer-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " developer "
+  },
+  {
+    "Name": "real-estate-attorney-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "resident-physician-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "resume-example-option-attorney.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "resume-example-option-college-student.pdf",
+    "Score": 1,
+    "Keywords": " software "
+  },
+  {
+    "Name": "resume-example-option-nurse.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "resume-example-option-physical-therapist.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "resume-example-option-project-manager.pdf",
+    "Score": 2,
+    "Keywords": " software "
+  },
+  {
+    "Name": "resume-example-option-real-estate-agent.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "resume-example-option-sales.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "resume-example-option-software-engineer.pdf",
+    "Score": 2,
+    "Keywords": " software engineer "
+  },
+  {
+    "Name": "sas-programmer-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "school-custodian-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "senior-attorney-resume-example.pdf",
+    "Score": 2,
+    "Keywords": " university software "
+  },
+  {
+    "Name": "senior-front-end-developer-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " university "
+  },
+  {
+    "Name": "senior-network-engineer-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " engineer "
+  },
+  {
+    "Name": "senior-programmer-resume-example.pdf",
+    "Score": 5,
+    "Keywords": " programmer software "
+  },
+  {
+    "Name": "senior-ux-designer-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " university "
+  },
+  {
+    "Name": "software-developer-1562751287.pdf",
+    "Score": 9,
+    "Keywords": " developer software university "
+  },
+  {
+    "Name": "software-tester-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " software "
+  },
+  {
+    "Name": "tester-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "trademark-attorney-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "ui-front-end-developer-resume-example.pdf",
+    "Score": 2,
+    "Keywords": " software university "
+  },
+  {
+    "Name": "ui-ux-designer-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "ux-designer-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "waiter-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "waitress-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "waitress-resume-no-experience-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "waitress-server-resume-example.pdf",
+    "Score": 0,
+    "Keywords": " "
+  },
+  {
+    "Name": "word-press-front-end-developer-resume-example.pdf",
+    "Score": 1,
+    "Keywords": " developer "
+  }
+]

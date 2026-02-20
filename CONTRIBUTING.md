@@ -1,204 +1,207 @@
 # Contributing to CV Analyser
 
-Thank you for considering contributing to CV Analyser! We appreciate your interest in helping us improve this project. This document provides guidelines and instructions for contributing to the project.
+Thank you for your interest in contributing! This guide covers the coding standards, workflow, and conventions used in this project.
 
 ## Table of Contents
 
-- [Code of Conduct](#code-of-conduct)
 - [Getting Started](#getting-started)
-- [How to Contribute](#how-to-contribute)
-  - [Reporting Bugs](#reporting-bugs)
-  - [Suggesting Enhancements](#suggesting-enhancements)
-  - [Your First Code Contribution](#your-first-code-contribution)
-  - [Pull Requests](#pull-requests)
-- [Development Environment Setup](#development-environment-setup)
+- [Development Workflow](#development-workflow)
 - [Coding Standards](#coding-standards)
-- [Commit Message Guidelines](#commit-message-guidelines)
-- [License](#license)
+- [File & Region Structure](#file--region-structure)
+- [Commit Messages](#commit-messages)
+- [Pull Requests](#pull-requests)
+- [Reporting Issues](#reporting-issues)
 
-## Code of Conduct
-
-This project and everyone participating in it is governed by our [Code of Conduct](CODE_OF_CONDUCT.md). By participating, you are expected to uphold this code. Please report unacceptable behavior to info.beydahsaglam@gmail.com.
+---
 
 ## Getting Started
 
-1. **Fork** the repository on GitHub
-2. **Clone** your fork locally
+1. **Fork** this repository on GitHub
+2. **Clone** your fork:
    ```bash
-   git clone https://github.com/your-username/cv_analyser.git
-   cd cv_analyser
+   git clone https://github.com/your-username/CV-Analyser.git
+   cd CV-Analyser
    ```
-3. Add the original repository as a remote
+3. **Add upstream remote**:
    ```bash
-   git remote add upstream https://github.com/beydah/cv_analyser.git
+   git remote add upstream https://github.com/beydah/CV-Analyser.git
    ```
-4. Create a new branch for your changes
+4. **Create a feature branch**:
    ```bash
    git checkout -b feature/your-feature-name
    ```
+5. Follow the [Environment Setup](docs/environment_setup.md) guide to configure your development environment.
 
-## How to Contribute
+---
 
-### Reporting Bugs
+## Development Workflow
 
-1. **Check Existing Issues**: Before creating a new issue, please check if the bug has already been reported.
-2. **Create an Issue**: If you're the first to report the bug, create a new issue with a clear title and description.
-3. **Bug Report Template**:
-   ```markdown
-   ## Description
-   
-   [Detailed description of the bug]
-   
-   ## Steps to Reproduce
-   1. [First Step]
-   2. [Second Step]
-   3. [And so on...]
-   
-   **Expected behavior:** [What you expected to happen]
-   
-   **Actual behavior:** [What actually happened]
-   
-   **Screenshots:** [If applicable, add screenshots to help explain your problem]
-   
-   ## System Information
-   - OS: [e.g., Windows 10]
-   - .NET Version: [e.g., .NET 4.7.2]
-   - Application Version: [e.g., 1.0.0]
-   ```
+1. Sync your fork with upstream before starting work
+2. Create a branch from `main` using the naming convention below
+3. Make focused, atomic commits
+4. Ensure the project builds with **0 errors** before submitting
+5. Submit a Pull Request with a clear description
 
-### Suggesting Enhancements
+### Branch Naming
 
-1. **Check Existing Suggestions**: Before suggesting an enhancement, please check if it has already been suggested.
-2. **Create an Enhancement Issue**: Use the enhancement template to describe your suggestion.
-3. **Enhancement Template**:
-   ```markdown
-   ## Description
-   
-   [Detailed description of the enhancement]
-   
-   ## Why is this feature important?
-   [Explain why this feature would be valuable]
-   
-   ## Proposed Solution
-   [Describe your proposed solution]
-   
-   ## Alternative Solutions
-   [List any alternative solutions or features you've considered]
-   ```
+| Type     | Pattern                      | Example                    |
+| -------- | ---------------------------- | -------------------------- |
+| Feature  | `feature/short-description`  | `feature/password-hashing` |
+| Bugfix   | `fix/short-description`      | `fix/email-validation`     |
+| Docs     | `docs/short-description`     | `docs/deployment-guide`    |
+| Refactor | `refactor/short-description` | `refactor/async-queries`   |
 
-### Your First Code Contribution
-
-1. Find an issue labeled "good first issue" or "help wanted"
-2. Comment on the issue to let others know you're working on it
-3. Follow the development setup instructions below
-4. Make your changes and submit a pull request
-
-### Pull Requests
-
-1. Ensure your code follows the project's coding standards
-2. Update the documentation if necessary
-3. Add tests for your changes
-4. Ensure all tests pass
-5. Submit your pull request with a clear title and description
-
-## Development Environment Setup
-
-### Prerequisites
-
-- Visual Studio 2019 or later
-- .NET Framework 4.7.2 or later
-- SQL Server Express LocalDB
-- Git
-
-### Setup Steps
-
-1. Clone the repository
-2. Open the solution in Visual Studio
-3. Restore NuGet packages
-4. Build the solution (Ctrl+Shift+B)
-5. Run the application (F5)
-
-### Running Tests
-
-```bash
-dotnet test
-```
+---
 
 ## Coding Standards
 
-### C# Coding Conventions
-
-- Use PascalCase for class names and method names
-- Use camelCase for local variables and method parameters
-- Use _camelCase for private fields
-- Use UPPER_CASE for constants
-- Use meaningful and descriptive names
-- Add XML documentation for public members
-
-### Code Formatting
-
-- Use 4 spaces for indentation (no tabs)
-- Use braces `{}` even for single-line statements
-- Add a space after keywords (e.g., `if (condition)`)
-- Add a space before and after operators (e.g., `x = y + z`)
-- Place opening braces on the same line
-
 ### Naming Conventions
 
-- Prefix interface names with 'I' (e.g., `IResumeParser`)
-- Suffix exception classes with 'Exception' (e.g., `InvalidFormatException`)
-- Use meaningful and descriptive names
-- Avoid abbreviations unless they are well-known
+All code must follow the enterprise naming conventions:
 
-## Commit Message Guidelines
+| Element                 | Convention      | Example                               |
+| ----------------------- | --------------- | ------------------------------------- |
+| **Classes**             | `C_Snake_Case`  | `C_Analyser`, `C_Check`               |
+| **Functions/Methods**   | `F_Snake_Case`  | `F_Browser_Start`, `F_Is_Valid_Email` |
+| **Parameters**          | `p_snake_case`  | `p_email`, `p_password`               |
+| **Constants / Globals** | `SNAKE_CASE`    | `APP_NAME`, `DB_PATH`                 |
+| **Local variables**     | `snake_case`    | `digit_count`, `base_path`            |
+| **Files**               | `snake_case.cs` | `query_account.cs`, `ui_helper.cs`    |
 
-We follow the [Conventional Commits](https://www.conventionalcommits.org/) specification for commit messages:
+### Comment Rules
+
+- **Single-line English comments only** — no multi-line `/* */` blocks
+- Comments must be placed **under** regions, classes, or functions
+- Every function and class must have a comment describing its purpose
+
+```csharp
+#region FUNCTIONS
+// Validates email format using a standard regex
+public static bool F_Is_Valid_Email(string p_email)
+{
+    if (string.IsNullOrWhiteSpace(p_email)) return false;
+    return Regex.IsMatch(p_email, @"^[^@\s]+@[^@\s]+\.[^@\s]+$");
+}
+#endregion
+```
+
+---
+
+## File & Region Structure
+
+Every source file must contain **5–10 global regions** in this order:
+
+```csharp
+#region HEADER
+// File: filename.cs
+// Project: CV_Analyser
+// Description: Brief file description
+#endregion
+
+#region LIBRARIES
+using System;
+// ... other using statements
+#endregion
+
+#region CONSTANTS
+// Global constants for this module
+#endregion
+
+namespace CV_Analyser.Backend.Core
+{
+    #region CLASSES
+    // Description of the class
+    internal class C_Example
+    {
+        #region FUNCTIONS
+        // Description of the function
+        public static void F_Do_Something(string p_input)
+        {
+            // implementation
+        }
+        #endregion
+    }
+    #endregion
+}
+```
+
+### Directory Rules
+
+| Rule                             | Limit |
+| -------------------------------- | ----- |
+| Max root directories             | 5     |
+| Max subdirectories per directory | 10    |
+| Max files per directory          | 15    |
+
+---
+
+## Commit Messages
+
+Follow the [Conventional Commits](https://www.conventionalcommits.org/) specification:
 
 ```
-<type>[optional scope]: <description>
+<type>(scope): <description>
 
 [optional body]
-
-[optional footer(s)]
 ```
 
 ### Types
 
-- **feat**: A new feature
-- **fix**: A bug fix
-- **docs**: Documentation only changes
-- **style**: Changes that do not affect the meaning of the code (white-space, formatting, etc.)
-- **refactor**: A code change that neither fixes a bug nor adds a feature
-- **perf**: A code change that improves performance
-- **test**: Adding missing tests or correcting existing tests
-- **chore**: Changes to the build process or auxiliary tools and libraries
+| Type       | Description                                             |
+| ---------- | ------------------------------------------------------- |
+| `feat`     | New feature                                             |
+| `fix`      | Bug fix                                                 |
+| `docs`     | Documentation changes                                   |
+| `refactor` | Code change that neither fixes a bug nor adds a feature |
+| `perf`     | Performance improvement                                 |
+| `style`    | Formatting, whitespace (no logic change)                |
+| `chore`    | Build process, tooling, dependencies                    |
 
-### Examples
-
-```
-feat(parser): add support for PDF/A format
-
-Add support for parsing PDF/A compliant documents in the resume parser.
-
-Closes #123
-```
+### Example
 
 ```
-fix(ui): correct button alignment in main form
+feat(resume): add university keyword weighting
 
-- Fix alignment of the analyze button
-- Update button styles for better visibility
-
-Fixes #124
+Add optional boolean flag to weight university-related
+keywords during CV analysis scoring.
 ```
-
-## License
-
-By contributing to CV Analyser, you agree that your contributions will be licensed under its MIT License.
 
 ---
 
-Thank you for contributing to CV Analyser! Your help is greatly appreciated.
+## Pull Requests
+
+1. Ensure the project builds with **0 errors** (`msbuild CV_Analyser.csproj /p:Configuration=Debug`)
+2. Follow all naming conventions and region rules
+3. Update documentation if your change affects the architecture or API
+4. Write a clear PR description explaining **what** and **why**
+5. Reference any related issues using `Closes #123` or `Fixes #456`
+
+---
+
+## Reporting Issues
+
+### Bug Reports
+
+Use the [Bug Report template](.github/ISSUE_TEMPLATE/bug_report.md) and include:
+- Steps to reproduce
+- Expected vs actual behavior
+- OS and .NET Framework version
+- Screenshots if applicable
+
+### Feature Requests
+
+Use the [Feature Request template](.github/ISSUE_TEMPLATE/feature_request.md) and describe:
+- The problem your feature solves
+- Your proposed solution
+- Alternative approaches considered
+
+---
+
+## License
+
+By contributing to CV Analyser, you agree that your contributions will be licensed under the project's [GNU GPL v3.0 License](LICENSE).
+
+---
 
 **Developer Contact:**
 - **Website**: [beydahsaglam.com](https://beydahsaglam.com)

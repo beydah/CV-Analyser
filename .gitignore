@@ -1,0 +1,40 @@
+# Build output
+[Bb]in/
+[Oo]bj/
+
+# NuGet packages
+packages/
+*.nupkg
+
+# Visual Studio user files
+*.user
+*.suo
+*.sln.docstates
+.vs/
+
+# IDE
+*.rsuser
+*.userprefs
+*.DotSettings.user
+
+# Database files
+*.mdf
+*.ldf
+
+# OS generated
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+
+# Misc
+*.log
+*.tmp
+*.cache
+*.bak

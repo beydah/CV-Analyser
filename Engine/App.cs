@@ -9,6 +9,9 @@ namespace CV_Analyser.Engine
 {
     internal class App
     {
-        public static void Browser_Start(string URL) { Process.Start("cmd", $"/c start {URL}"); }
+        public static void Browser_Start(string URL)
+        {
+            Process.Start(new ProcessStartInfo(URL) { UseShellExecute = true });
+        }
     }
 }

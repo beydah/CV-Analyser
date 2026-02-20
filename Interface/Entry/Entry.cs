@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -40,13 +41,13 @@ namespace CV_Analyser.Interface.Entry
             if (Eye_Active)
             {
                 textBox_Password.PasswordChar = '*';
-                pictureBox_Eye.Image = Image.FromFile("F:\\CV_Analyser\\Asset\\Icon\\eye_black_passive.png");
+                pictureBox_Eye.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Asset", "Icon", "eye_black_passive.png"));
                 Eye_Active = false;
             }
             else
             {
                 textBox_Password.PasswordChar = '\0';
-                pictureBox_Eye.Image = Image.FromFile("F:\\CV_Analyser\\Asset\\Icon\\eye_black_active.png");
+                pictureBox_Eye.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Asset", "Icon", "eye_black_active.png"));
                 Eye_Active = true;
             }
         }

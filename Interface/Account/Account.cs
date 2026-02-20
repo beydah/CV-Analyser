@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -58,13 +59,13 @@ namespace CV_Analyser.Interface.Account
             if (Eye1_Active)
             {
                 textBox_Password.PasswordChar = '*';
-                pictureBox_Eye.Image = Image.FromFile("F:\\CV_Analyser\\Asset\\Icon\\eye_black_passive.png");
+                pictureBox_Eye.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Asset", "Icon", "eye_black_passive.png"));
                 Eye1_Active = false;
             }
             else
             {
                 textBox_Password.PasswordChar = '\0';
-                pictureBox_Eye.Image = Image.FromFile("F:\\CV_Analyser\\Asset\\Icon\\eye_black_active.png");
+                pictureBox_Eye.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Asset", "Icon", "eye_black_active.png"));
                 Eye1_Active = true;
             }
         }
@@ -74,13 +75,13 @@ namespace CV_Analyser.Interface.Account
             if (Eye2_Active)
             {
                 textBox_Password_Again.PasswordChar = '*';
-                pictureBox_Eye.Image = Image.FromFile("F:\\CV_Analyser\\Asset\\Icon\\eye_black_passive.png");
+                pictureBox_Eye.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Asset", "Icon", "eye_black_passive.png"));
                 Eye2_Active = false;
             }
             else
             {
                 textBox_Password_Again.PasswordChar = '\0';
-                pictureBox_Eye_Again.Image = Image.FromFile("F:\\CV_Analyser\\Asset\\Icon\\eye_black_active.png");
+                pictureBox_Eye_Again.Image = Image.FromFile(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Asset", "Icon", "eye_black_active.png"));
                 Eye2_Active = true;
             }
         }

@@ -2,6 +2,7 @@
 using System;
 using System.Collections.Generic;
 using System.Data.SqlClient;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,7 +15,7 @@ namespace CV_Analyser.Data
     internal class Query_Account
     {
         #region Global Variables
-        static string Connection_String = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=F:\\CV_Analyser\\Data\\Analyser_DB.mdf;Integrated Security=True";
+        static string Connection_String = $"Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename={Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "Data", "Analyser_DB.mdf")};Integrated Security=True";
         #endregion
 
         #region Select Functions
@@ -24,7 +25,7 @@ namespace CV_Analyser.Data
             using (SqlConnection connection = new SqlConnection(Connection_String))
             {
                 connection.Open();
-                string query = "SELECT COUNT(*) FROM Account WHERE Username = @User_Info OR Mail = @User_Info OR Phone = @User_Info AND Password = @Password";
+                string query = "SELECT COUNT(*) FROM Account WHERE (Username = @User_Info OR Mail = @User_Info OR Phone = @User_Info) AND Password = @Password";
 
                 using (SqlCommand command = new SqlCommand(query, connection))
                 {

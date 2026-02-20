@@ -199,7 +199,7 @@ Use the [Feature Request template](.github/ISSUE_TEMPLATE/feature_request.md) an
 
 ## License
 
-By contributing to CV Analyser, you agree that your contributions will be licensed under the project's [GNU GPL v3.0 License](LICENSE).
+By contributing to CV Analyser, you agree that your contributions will be licensed under the project's [MIT License](LICENSE).
 
 ---
 

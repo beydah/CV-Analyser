@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="Asset/Icon/cv_analyser.ico" alt="CV Analyser Logo" width="80" />
-</p>
-
 <h1 align="center">CV Analyser</h1>
 
 <p align="center">
@@ -10,7 +6,7 @@
 
 <p align="center">
   <a href="https://github.com/beydah/CV-Analyser/actions"><img src="https://github.com/beydah/CV-Analyser/actions/workflows/dotnet-desktop.yml/badge.svg" alt="Build Status" /></a>
-  <a href="LICENSE"><img src="https://img.shields.io/badge/License-GPL--3.0-blue.svg" alt="License" /></a>
+  <a href="LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="License" /></a>
   <img src="https://img.shields.io/badge/.NET_Framework-4.8-purple.svg" alt=".NET Framework 4.8" />
   <img src="https://img.shields.io/badge/Platform-Windows-0078D6.svg" alt="Windows" />
 </p>
@@ -169,6 +165,7 @@ This project uses **enterprise naming conventions** enforced across all source f
 | [Environment Setup](docs/environment_setup.md)   | Developer onboarding        |
 | [Deployment Guide](docs/deployment_guide.md)     | Build and distribution      |
 | [Refactor Roadmap](docs/refactor_roadmap.md)     | Future improvement plan     |
+| [Logging Strategy](docs/logging_strategy.md)     | Error handling and logging  |
 | [Code Examples](docs/code_examples.md)           | Before/After refactoring    |
 | [Contributing](CONTRIBUTING.md)                  | How to contribute           |
 | [Security Policy](SECURITY.md)                   | Vulnerability reporting     |
@@ -181,7 +178,7 @@ We welcome contributions! Please read our [Contributing Guide](CONTRIBUTING.md) 
 
 ## License
 
-This project is licensed under the **GNU General Public License v3.0** — see the [LICENSE](LICENSE) file for details.
+This project is licensed under the **MIT License** — see the [LICENSE](LICENSE) file for details.
 
 ## Contact
 

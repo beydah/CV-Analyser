@@ -50,5 +50,3 @@ If you discover a security vulnerability in CV Analyser, please report it respon
 | Email credentials | Hardcoded in source             | Move to App.config / env vars    |
 | Input validation  | Regex-based validation          | Already centralized in `C_Check` |
 | Process execution | `UseShellExecute = true`        | URL whitelist validation         |
-
-> See the [Refactor Roadmap](docs/refactor_roadmap.md) for the full improvement plan.

@@ -70,20 +70,61 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Data\Query_Resume.cs" />
-    <Compile Include="Engine\App.cs" />
-    <Compile Include="Engine\Resume.cs" />
-    <Compile Include="Interface\Analyser\Analyser.cs">
+    <!-- Backend: Core -->
+    <Compile Include="backend\core\app.cs" />
+    <Compile Include="backend\core\check.cs" />
+    <Compile Include="backend\core\mail.cs" />
+    <!-- Backend: Auth -->
+    <Compile Include="backend\auth\query_account.cs" />
+    <!-- Backend: Resume -->
+    <Compile Include="backend\resume\resume.cs" />
+    <Compile Include="backend\resume\query_resume.cs" />
+    <!-- Frontend: Atoms -->
+    <Compile Include="frontend\atoms\ui_helper.cs" />
+    <!-- Frontend: Pages - Entry -->
+    <Compile Include="frontend\pages\entry.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Interface\Analyser\Analyser.Designer.cs">
-      <DependentUpon>Analyser.cs</DependentUpon>
+    <Compile Include="frontend\pages\entry.designer.cs">
+      <DependentUpon>entry.cs</DependentUpon>
     </Compile>
-    <Compile Include="Program.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Interface\Analyser\Analyser.resx">
-      <DependentUpon>Analyser.cs</DependentUpon>
+    <EmbeddedResource Include="frontend\pages\entry.resx">
+      <DependentUpon>entry.cs</DependentUpon>
     </EmbeddedResource>
+    <!-- Frontend: Pages - Account -->
+    <Compile Include="frontend\pages\account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frontend\pages\account.designer.cs">
+      <DependentUpon>account.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frontend\pages\account.resx">
+      <DependentUpon>account.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- Frontend: Pages - Password -->
+    <Compile Include="frontend\pages\password.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frontend\pages\password.designer.cs">
+      <DependentUpon>password.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frontend\pages\password.resx">
+      <DependentUpon>password.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- Frontend: Pages - Analyser -->
+    <Compile Include="frontend\pages\analyser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frontend\pages\analyser.designer.cs">
+      <DependentUpon>analyser.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frontend\pages\analyser.resx">
+      <DependentUpon>analyser.cs</DependentUpon>
+    </EmbeddedResource>
+    <!-- Program Entry Point -->
+    <Compile Include="Program.cs" />
+    <!-- Properties -->
+    <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

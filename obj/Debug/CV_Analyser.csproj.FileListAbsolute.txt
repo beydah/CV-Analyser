@@ -16,10 +16,8 @@ E:\1Victus\4Repository\2Desktop\cv_analyser\obj\Debug\CV_Analyser.exe
 E:\1Victus\4Repository\2Desktop\cv_analyser\obj\Debug\CV_Analyser.pdb
 E:\1Victus\4Repository\2Desktop\cv_analyser\obj\Debug\CV_Analyser.exe.config
 C:\Users\BEYDAH\Desktop\Code\CV-Analyser\obj\Debug\CV_Analyser.csproj.AssemblyReference.cache
-C:\Users\BEYDAH\Desktop\Code\CV-Analyser\obj\Debug\CV_Analyser.exe.config
 C:\Users\BEYDAH\Desktop\Code\CV-Analyser\obj\Debug\CV_Analyser.exe
 C:\Users\BEYDAH\Desktop\Code\CV-Analyser\obj\Debug\CV_Analyser.pdb
-C:\Users\BEYDAH\Desktop\Code\CV-Analyser\obj\Debug\CV_Analyser.Interface.Analyser.Analyser.resources
 C:\Users\BEYDAH\Desktop\Code\CV-Analyser\obj\Debug\CV_Analyser.Properties.Resources.resources
 C:\Users\BEYDAH\Desktop\Code\CV-Analyser\obj\Debug\CV_Analyser.csproj.GenerateResource.cache
 C:\Users\BEYDAH\Desktop\Code\CV-Analyser\obj\Debug\CV_Analyser.csproj.CoreCompileInputs.cache
@@ -32,3 +30,7 @@ C:\Users\BEYDAH\Desktop\Code\CV-Analyser\bin\Debug\Newtonsoft.Json.dll
 C:\Users\BEYDAH\Desktop\Code\CV-Analyser\bin\Debug\itextsharp.xml
 C:\Users\BEYDAH\Desktop\Code\CV-Analyser\bin\Debug\Newtonsoft.Json.xml
 C:\Users\BEYDAH\Desktop\Code\CV-Analyser\obj\Debug\CV_Analy.26D2B9E0.Up2Date
+C:\Users\BEYDAH\Desktop\Code\CV-Analyser\obj\Debug\CV_Analyser.Frontend.Pages.C_Entry.resources
+C:\Users\BEYDAH\Desktop\Code\CV-Analyser\obj\Debug\CV_Analyser.Frontend.Pages.C_Account.resources
+C:\Users\BEYDAH\Desktop\Code\CV-Analyser\obj\Debug\CV_Analyser.Frontend.Pages.C_Password.resources
+C:\Users\BEYDAH\Desktop\Code\CV-Analyser\obj\Debug\CV_Analyser.Frontend.Pages.C_Analyser.resources

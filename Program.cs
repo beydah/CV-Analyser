@@ -1,22 +1,30 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+﻿#region HEADER
+// File: Program.cs
+// Project: CV_Analyser
+// Description: Application entry point
+#endregion
+
+#region LIBRARIES
+using System;
 using System.Windows.Forms;
+#endregion
 
 namespace CV_Analyser
 {
-    internal static class Program
+    #region CLASSES
+    // Application entry point class
+    internal static class C_Program
     {
-        /// <summary>
-        /// Uygulamanın ana girdi noktası.
-        /// </summary>
+        #region FUNCTIONS
+        // Main entry point for the application
         [STAThread]
         static void Main()
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Interface.Analyser.Analyser());
+            Application.Run(new Frontend.Pages.C_Analyser());
         }
+        #endregion
     }
+    #endregion
 }

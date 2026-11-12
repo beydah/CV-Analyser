@@ -77,6 +77,7 @@
     <Compile Include="backend\core\mail.cs" />
     <!-- Backend: Auth -->
     <Compile Include="backend\auth\query_account.cs" />
+    <Compile Include="backend\auth\password_hasher.cs" />
     <!-- Backend: Resume -->
     <Compile Include="backend\resume\resume.cs" />
     <Compile Include="backend\resume\query_resume.cs" />

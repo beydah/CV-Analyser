@@ -45,7 +45,7 @@ If you discover a security vulnerability in CV Analyser, please report it respon
 
 | Area              | Current State                   | Planned Improvement              |
 | ----------------- | ------------------------------- | -------------------------------- |
-| Password storage  | Plaintext in database           | Bcrypt/PBKDF2 hashing            |
+| Password storage  | PBKDF2-HMAC-SHA256 with a unique salt; legacy plaintext upgrades after successful login | Review KDF cost as supported devices change |
 | Database          | SQL Server LocalDB (local only) | Parameterized queries verified   |
 | Email credentials | Hardcoded in source             | Move to App.config / env vars    |
 | Input validation  | Regex-based validation          | Already centralized in `C_Check` |

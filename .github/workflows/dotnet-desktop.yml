@@ -28,7 +28,7 @@ jobs:
       run: nuget restore CV_Analyser.sln
 
     - name: Build
-      run: msbuild CV_Analyser.csproj /p:Configuration=${{ matrix.configuration }} /p:Platform="Any CPU"
+      run: msbuild CV_Analyser.csproj /p:Configuration=${{ matrix.configuration }} /p:Platform=AnyCPU
 
     - name: Upload build artifacts
       if: matrix.configuration == 'Release'
